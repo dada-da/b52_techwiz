@@ -14,9 +14,12 @@
     <link
             href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
             rel="stylesheet">
+    <script src="libs/jquery/jquery-3.5.1.js"></script>
+    <script src="libs/jquery-1.8.0.min.js"></script>
     <script src="https://kit.fontawesome.com/93907e36a7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/about-us.css">
     <link rel="stylesheet" href="css/footer-header.css">
+    <script src="libs/jquery.waypoints.min.js"></script>
 </head>
 
 <body>
@@ -29,8 +32,8 @@
 
             <nav>
                 <ul class="menu-flex text-center">
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">About Us</a></li>
                     <li><a href="#">Workouts</a></li>
                     <li id="header-logo" class="fit-ness-logo">
                         <a href="#">Fit4Life<br>Gym</a>
@@ -52,39 +55,41 @@
         </div>
     </header>
 </section>
-<section class="main container">
+<section class="main-content container-fluid">
     <div class="row">
-        <div class="col-lg-12 col-xs-12 col-sm-12 img-background">
+        <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 img-background">
             <h2 class="title-page text-center">ABOUT US</h2>
-            <p class="under-title"><a href="#">HOME</a>/ABOUT US</p>
+            <p class="under-title text-center"><a href="#">HOME</a>/ABOUT US</p>
         </div>
-        <div class="col-lg-12"></div>
-        <div class="text-box-2">
+        <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12"></div>
+        <div class="text-box-2 col-lg-6">
             <h2 class="desc-title">Who we are</h2>
             <p class="desc-text">Donec ut nisi et nibh iaculis gravida. Nam a auctor libero. Etiam issim et odio eget vulputate. Nulla ut ligula sed diam suscipit cod mentum eget sit amet quam. Ut vitae feugiat ipsum. Duis condim tum lectus quis blandit egestas. Sed euismod nisi ut ullamcorper consequat. Morbi vel malesuada dui.</p>
             <p class="desc-text">Phasellus ornare quam eget vestibulum rhoncus. Integer hendre tempor vehicula. Suspendisse orci nisi, sollicitudin vitae turpis, cursus pharetra urna.</p>
         </div>
+        <div class="col-lg-6">
         <img src="imgs/about-us/about-us-bg.png" class="desc-img" height="576" width="500"/>
-        <div class="feature-box">
-            <div class="container">
+        </div>
+        <div class="feature-box col-lg-12">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-3">
-                        <i class="fas fa-headset feature-icon"></i>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-icon"><img src="imgs/about-us/icons/headphones.png" height="128" width="128"/></div>
                         <h3 class="feature-title text-center">FREE CONSULTATION</h3>
                         <p class="feature-desc text-center">Donec finibus ulicies vulputate tupis, id mollis massa laoreet </p>
                     </div>
-                    <div class="col-lg-3">
-                        <i class="far fa-star feature-icon"></i>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-icon"><img src="imgs/about-us/icons/pointed-star.png" height="128" width="128"/></div>
                         <h3 class="feature-title text-center">Excellent service</h3>
                         <p class="feature-desc text-center">Aenean sagittis sodales tincidunt augue ut sagittis faucibus </p>
                     </div>
-                    <div class="col-lg-3">
-                        <i class="fas fa-trophy feature-icon"></i>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-icon"><img src="imgs/about-us/icons/trophy-cup-silhouette.png" height="128" width="128"/></div>
                         <h3 class="feature-title text-center">Best trainers</h3>
                         <p class="feature-desc text-center">Praesent non varius neque porta egestas sem faucibus </p>
                     </div>
-                    <div class="col-lg-3">
-                        <i class="far fa-thumbs-up feature-icon"></i>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="feature-icon"><img src="imgs/about-us/icons/like (1).png"  height="128" width="128"/></div>
                         <h3 class="feature-title text-center">Work programs</h3>
                         <p class="feature-desc text-center">Curabitur ut suscipit nisi mattis elit, magna libero velit </p>
                     </div>
@@ -94,32 +99,205 @@
     </div>
 </section>
 <section id="gallery-slide">
-    <div class="col-lg-12">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <h2 class="text-center gallery-title">OUR GALLERY</h2>
         <div class="slick">
-            <div>
-                <img src="imgs/about-us/slide/gallery-1.jpg" height="400" width="480"/>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img src="imgs/about-us/slide/gallery-1.jpg"/>
             </div>
-            <div>
-                <img src="imgs/about-us/slide/gallery-2.jpg" height="400" width="480"/>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img src="imgs/about-us/slide/gallery-2.jpg"/>
             </div>
-            <div>
-                <img src="imgs/about-us/slide/gallery-3.jpg" height="400" width="480"/>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img src="imgs/about-us/slide/gallery-3.jpg"/>
             </div>
-            <div>
-                <img src="imgs/about-us/slide/gallery-4.jpg" height="400" width="480"/>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img src="imgs/about-us/slide/gallery-4.jpg"/>
             </div>
-            <div>
-                <img src="imgs/about-us/slide/gallery-5.jpg" height="400" width="480"/>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img src="imgs/about-us/slide/gallery-5.jpg"/>
             </div>
-            <div>
-                <img src="imgs/about-us/slide/gallery-6.jpg" height="400" width="480"/>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img src="imgs/about-us/slide/gallery-6.jpg"/>
             </div>
-            <div>
-                <img src="imgs/about-us/slide/gallery-7.jpg" height="400" width="480"/>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img src="imgs/about-us/slide/gallery-7.jpg"/>
             </div>
-            <div>
-                <img src="imgs/about-us/slide/gallery-8.jpg" height="400" width="480"/>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img src="imgs/about-us/slide/gallery-8.jpg"/>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="main container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-xs-12 col-md-12 services-box">
+          <div class="col-lg-7 services-img-lg">
+          <img src="imgs/about-us/service-bg.png" class="services-img"/>
+          </div>
+          <div class="col-lg-5 services-info">
+          <h3 class="services-title">SERVICES</h3>
+            <img src="imgs/about-us/icons/4-weights-on-bar.png" class="services-icon"/>
+            <h4>Personal training</h4>
+            <p>Etiam aliquam viverra hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+            <img src="imgs/about-us/icons/users.png" class="services-icon"/>
+            <h4>Personal training</h4>
+            <p>Etiam aliquam viverra hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+            <img src="imgs/about-us/icons/competition-chronometer-.png" class="services-icon"/>
+            <h4>Personal training</h4>
+            <p>Etiam aliquam viverra hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+          </div>
+      </div>
+      </div>
+</section>
+<section class="main container-fluid">
+    <div class="row">
+        <div class="col-lg-12 col-xs-12 col-md-12 counter-info">
+            <div class="col-lg-3">
+                <img src="imgs/about-us/icons/clock.png" height="128" width="128"/>
+                <h3 class="counter">1248</h3>
+                <p>WORKING HOURS</p>
+            </div>
+            <div class="col-lg-3">
+                <img src="imgs/about-us/icons/like.png" height="128" width="128"/>
+                <h3 class="counter">2064</h3>
+                <p>HAPPY CLIENTS</p>
+            </div>
+            <div class="col-lg-3">
+                <img src="imgs/about-us/icons/like (1).png" height="128" width="128"/>
+                <h3 class="counter">537</h3>
+                <p>SUCCESS STORIES</p>
+            </div>
+            <div class="col-lg-3">
+                <img src="imgs/about-us/icons/diamond.png" height="128" width="128"/>
+                <h3 class="counter">862</h3>
+                <p>PERFECT BODIES</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section id="trainer-slider">
+    <div class="col-lg-12 col-xs-12 col-md-12 trainer">
+        <h4>OUR TRAINERS</h4>
+        <div class="slick">
+        <div class="trainer-items col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <img src="imgs/about-us/trainer/trainer-1.jpg" class="trainer-img"/>
+            <a href="#"><h6>KELLY PHELPS/BODY TRAINER</h6></a>
+            <div class="trainer-info">
+                <div class="trainer-text">
+                <p>Fusce vehicula dapibus ante quis grav. Morbi quis rhoncus lacus. Quisque ac ornare nunc.</p>
+                <ul class="trainer-icon">
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/facebook.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/google-plus.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/twitter.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/instagram.png" height="128" width="128"/></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="trainer-items col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <img src="imgs/about-us/trainer/trainer-2.jpg" class="trainer-img"/>
+            <a href="#"><h6>JULIA JONES/BODY TRAINER</h6></a>
+            <div class="trainer-info hide-info">
+                <div class="trainer-text">
+                <p>Fusce vehicula dapibus ante quis grav. Morbi quis rhoncus lacus. Quisque ac ornare nunc.</p>
+                <ul class="trainer-icon">
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/facebook.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/google-plus.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/twitter.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/instagram.png" height="128" width="128"/></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="trainer-items col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <img src="imgs/about-us/trainer/trainer-3.jpg" class="trainer-img"/>
+            <a href="#"><h6>JULIA DANIEL/PILATES TRAINER</h6></a>
+            <div class="trainer-info hide-info">
+                <div class="trainer-text">
+                <p>Fusce vehicula dapibus ante quis grav. Morbi quis rhoncus lacus. Quisque ac ornare nunc.</p>
+                <ul class="trainer-icon">
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/facebook.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/google-plus.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/twitter.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/instagram.png" height="128" width="128"/></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="trainer-items col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <img src="imgs/about-us/trainer/trainer-4.jpg" class="trainer-img"/>
+            <a href="#"><h6>MARIAN GOLDEN/BODY TRAINER</h6></a>
+            <div class="trainer-info hide-info">
+                <div class="trainer-text">
+                <p>Fusce vehicula dapibus ante quis grav. Morbi quis rhoncus lacus. Quisque ac ornare nunc.</p>
+                <ul class="trainer-icon">
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/facebook.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/google-plus.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/twitter.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/instagram.png" height="128" width="128"/></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="trainer-items col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <img src="imgs/about-us/trainer/trainer-5.jpg" class="trainer-img"/>
+            <a href="#"><h6>RONALD DANIEL/BOXING TRAINER</h6></a>
+            <div class="trainer-info hide-info">
+                <div class="trainer-text">
+                <p>Fusce vehicula dapibus ante quis grav. Morbi quis rhoncus lacus. Quisque ac ornare nunc.</p>
+                <ul class="trainer-icon">
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/facebook.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/google-plus.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/twitter.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/instagram.png" height="128" width="128"/></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="trainer-items col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <img src="imgs/about-us/trainer/trainer-6.jpg" class="trainer-img"/>
+            <a href="#"><h6>JULIA JONES/BODY TRAINER</h6></a>
+            <div class="trainer-info hide-info">
+                <div class="trainer-text">
+                <p>Fusce vehicula dapibus ante quis grav. Morbi quis rhoncus lacus. Quisque ac ornare nunc.</p>
+                <ul class="trainer-icon">
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/facebook.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/google-plus.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/twitter.png" height="128" width="128"/></li>
+                    <li class="trainer-icons"><img src="imgs/about-us/icons/social icon/instagram.png" height="128" width="128"/></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-12 col-lg-12 img-2-background">
+        </div>
+        <div class="col-xs-12 col-md-12 col-lg-12 award-text">
+            <h3>OUR AWARDS</h3>
+            <p>Maecenas orci ex, vulputate id rhoncus id, congue eu nisl. Duis congue id ipsum eget gravida.
+                Vestibulum facilisis porta eros eu porta.
+            </p>
+            <div style="text-align: center">
+            <ul>
+                <li><img src="imgs/about-us/award/award-1.png" height="65" width="89"/></li>
+                <li><img src="imgs/about-us/award/award-2.png" height="65" width="89"/></li>
+                <li><img src="imgs/about-us/award/award-3.png" height="65" width="89"/></li>
+                <li><img src="imgs/about-us/award/award-4.png" height="65" width="89"/></li>
+                <li><img src="imgs/about-us/award/award-5.png" height="65" width="89"/></li>
+            </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-12 col-lg-12 contact-us">
+            <h4>GOT A QUASTION? WE WOULD BE HAPPY TO HELP!</h4>
+            <p>Pellentesque sed nibh blandit, ultricies eros at, dignissim tellus ac eleifend velit.</p>
+            <div class="text-center">
+            <button class="contact-us-btn">CONTACT US</button>
             </div>
         </div>
     </div>
@@ -206,30 +384,6 @@
             cssEase: 'linear'
         });
 
-        $('#trainers-slider').slick({
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
-            nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
-            responsive: [
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 2,
-                        arrows: false
-                    }
-                },
-                {
-                    breakpoint: 530,
-                    settings: {
-                        slidesToShow: 1,
-                        arrows: false
-                    }
-                }
-            ]
-        });
-
         // initialize event handling
         hamburgerMenu.on('click', () => {
             headerNav.toggle();
@@ -270,27 +424,60 @@
         });
     });
 
-    //gallery-slide
-    $('#gallery-slide').slick({
+    $('#gallery-slide .slick').slick({
         infinite: true,
-        slidesToShow: 8,
+        slidesToShow: 4,
         slidesToScroll: 1,
         dots: true,
-        prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
-        nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
         responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                    arrows: true
+                }
+            },
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 2,
-                    arrows: false
+                    slidesToShow: 3,
+                    arrows: true
+                }
+            },
+            {
+                breakpoint: 601,
+                settings: {
+                    slidesToShow: 3,
+                    arrows: true
                 }
             },
             {
                 breakpoint: 530,
                 settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
+    });
+    $('#trainer-slider .slick').slick({
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: false,
+        prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
+        nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
+        responsive: [
+            {
+                breakpoint: 993,
+                settings: {
+                    slidesToShow: 2,
+                    arrows: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
                     slidesToShow: 1,
-                    arrows: false
                 }
             }
         ]
@@ -302,6 +489,18 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="libs/jquery.counterup.min.js"></script>
+<!---------COUNTER UP------------>
+<script>
+    jQuery(document).ready(function ( $ )
+    {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+</script>
 </body>
 
 </html>
